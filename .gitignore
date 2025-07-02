@@ -29,6 +29,7 @@ ehthumbs.db
 Thumbs.db
 
 # Airflow
+.env
 airflow.cfg
 unittests.cfg
 webserver_config.py
