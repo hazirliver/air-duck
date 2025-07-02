@@ -1,10 +1,38 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Git
+.git/
+.venv/
+.idea/
 
-# Virtual environments
-.venv
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Airflow
+airflow.cfg
+unittests.cfg
+webserver_config.py
+logs/
+plugins/
+dags/
+data/
